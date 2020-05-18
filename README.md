@@ -1,6 +1,6 @@
 # Feebris application
 
-Submit waveform annotations and get list of submitted answers.
+Back-end Node.js project created to display best quality hair products based on your hair type and preferences.
 
 ## Getting started
 
@@ -14,11 +14,9 @@ Submit waveform annotations and get list of submitted answers.
 To look at what is inside your database in dev
 1. Run `mongo "mongodb://localhost/dev"`
 2. Run `use dev`
-3. Then you can run any command like `db.stethoscoperecords.find()`
+3. Then you can run any command like `db.products.find()`
 
 
 ## Improvements
-- [x] Export the get and post from NodeJs to a routes folder
-- [ ] Add more tests
+- [ ] Add user model
 - [ ] Add user login sessions
-- [ ] Could generate the .dat from the .wav file in Nodejs and save it on the cloud, then use it in the FE, instead of saving them in the public folder.
